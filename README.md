@@ -1,4 +1,4 @@
-# 🤖 AI Log Analyzer – Smart Edition
+# 🤖 AI Log Analyzer
 
 **AI Log Analyzer** is a lightweight, intelligent tool that helps DevOps engineers automatically detect and explain problems hidden inside log files.  
 It combines traditional regex-based pattern detection with Hugging Face transformers to give quick, readable insights about what went wrong — no training data needed.
@@ -155,4 +155,4 @@ Just keep the credit if you share or improve it. 🙏
 
 **Iftekhar Joy**  
 DevOps & AI Engineer  
-🔗 [imjoy.me](https://imjoy.me) | [GitHub](https://github.com/iftekharchowdhuryJOY) | [LinkedIn](https://linkedin.com/in/iftekharchowdhury)
+🔗 [imjoy.me](https://imjoy.me) | [GitHub](https://github.com/iftekharchowdhuryJOY) | [LinkedIn](https://www.linkedin.com/in/iftekharul-islam/)
