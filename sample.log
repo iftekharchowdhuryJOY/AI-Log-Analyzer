@@ -1,0 +1,5 @@
+2025-10-17 11:40:12 ERROR: Database connection failed: timeout expired after 30 seconds.
+[AuthService] ERROR: Invalid credentials for user 'admin'
+[NetworkManager] DNS lookup failed for service api.internal.local
+[ConfigLoader] ERROR: Missing environment variable: AWS_SECRET_ACCESS_KEY
+systemd[1]: Failed to start nginx.service - Unit not found.
