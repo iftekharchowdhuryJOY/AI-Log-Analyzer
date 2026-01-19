@@ -1,0 +1,24 @@
+name: AWS OIDC Practice
+
+on: [push]
+
+permissions:
+  id-token: write  # REQUIRED for OIDC
+  contents: read
+
+jobs:
+  aws-login:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          # PASTE YOUR ROLE ARN BELOW
+          role-to-assume: arn:aws:iam::225989342003:role/GitHubActions-OIDC-Role-TF
+          aws-region: us-east-1
+
+      - name: Verify Login
+        run: aws sts get-caller-identity
